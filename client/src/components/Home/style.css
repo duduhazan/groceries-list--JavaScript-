@@ -1,0 +1,98 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-blured {
+  width: 100vw;
+  height: 100vh;
+  filter: blur(1px);
+}
+
+.section {
+  width: 100vw;
+  text-align: center;
+}
+
+.headline-section {
+  padding-top: 30px;
+}
+
+.shopping-list-section {
+  padding: 15px;
+  border: solid 3px rgb(214, 0, 214);
+  background-color: black;
+  margin: auto;
+  max-width: 600px;
+}
+
+.shopping-list-li {
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.shopping-list-li-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopping-list-li-div span {
+  flex: 28%;
+  justify-content: space-between;
+}
+
+.icons-span {
+  flex: 16% !important;
+  justify-content: space-between !important;
+}
+
+.add-button {
+  margin: 15px;
+}
+
+.head-text {
+  margin-bottom: 15px;
+}
+
+.shopping-list-ul {
+  list-style: auto;
+}
+
+.icons-span i {
+  cursor: pointer;
+}
+
+.bi-pencil-square:hover {
+  color: greenyellow;
+}
+
+.bi-trash3:hover {
+  color: red;
+}
+
+.bi-image:hover {
+  color: lightskyblue;
+}
+
+.modal-visible {
+  display: block !important;
+}
+
+.no-items-div {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
+.modal-title {
+  color: #565e64;
+}
+
+.selected-image {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: calc(100vh / 2 - 150px);
+  left: calc(100vw / 2 - 150px);
+}
