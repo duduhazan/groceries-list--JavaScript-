@@ -36,7 +36,7 @@ export const productsRouter = (imageStorage) => {
     }
   });
 
-  router.post("/products", upload.single("image"), async (req, res) => {
+  router.post("/product", upload.single("image"), async (req, res) => {
     try {
       const result = validateProduct(req.body);
 
